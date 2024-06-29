@@ -185,8 +185,11 @@
       </table>
     </div>
     <div class="flex-container-center">
-      <button onclick="solvePuzzle()">Solve Puzzle</button>
-      <button onclick="populateDemoGame()">Demo Puzzle</button>
+      <button onclick="populateDemoGame(event)">Demo Puzzle</button>
+      <button onclick="populateUnsolvable(event)">Demo Unsolvable</button>
+      <button onclick="solvePuzzle(event)">Solve Puzzle</button>
+      <button onclick="generatePuzzle()" hidden>Generate Puzzle</button>
+      <button onclick="reset()">Reset</button>
     </div>
   </body>
 </html>
